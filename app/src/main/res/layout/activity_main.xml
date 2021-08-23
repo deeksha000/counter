@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="COUNTER APPLICATION"
+    android:textSize="50sp"
+    android:textAlignment="center"
+    android:textColor="#843B44"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:hint="COUNTER"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:onClick="start"
+        android:text="Start"
+        android:textColor="#ABEBC6"
+        android:textSize="30sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="stop"
+        android:text="Stop"
+        android:textColor="#ABEBC6 "
+        android:textSize="30sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Resume"
+        android:textSize="30sp"
+        android:textColor="#ABEBC6"
+        android:onClick="resume"/>
+</LinearLayout>
